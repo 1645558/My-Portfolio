@@ -23,7 +23,7 @@ nav a {
     font-weight: bold;
 }
 
-.article {
+#about-me {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -44,7 +44,7 @@ img, p {
     bottom: 0;
 }
 
-#portfolio {
+#my-portfolio {
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -61,7 +61,7 @@ h2 {
     padding: 20px;
 }
 
-.contact {
+#contact-me {
     text-align: center;
     margin-bottom: 40px;
     background-color: aquamarine;
@@ -72,8 +72,10 @@ h2 {
     
 }
 
-.contact a {
+#contact-me a {
     text-decoration: none;
     padding: 8px;
+    color: black;
+    font-weight: bold;
 }
 
