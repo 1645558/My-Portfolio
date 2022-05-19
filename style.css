@@ -3,12 +3,16 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    background-color: gray;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: gray;
+    background-color: aquamarine;
 
 }
 
@@ -33,4 +37,22 @@ nav a {
 
 img, p {
     padding-inline: 10px;
+}
+
+.imagesontop {
+    position: absolute;
+    bottom: 0;
+}
+
+#portfolio {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px;
+    height: 600px;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: aquamarine;
 }
