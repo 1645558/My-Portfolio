@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: aquamarine;
+
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    justify-content: flex-end;
+    margin: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+
+.imageonbottom {
+    padding: 60px;
+    display: block;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+h3 {
+    display: block;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+#my-portfolio {
+    padding: 20px;
+    margin: 20px;
+    height: 700px;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h4 {
+    padding: 20px;
+    font-size: x-large;
+}
+
+#contact-me {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: aquamarine;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+
+#contact-me a {
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    header, main, section, h2, h3, p {
+        flex-direction: column;
+    }
+
+
+}
+
