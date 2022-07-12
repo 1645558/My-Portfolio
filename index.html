@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/assets/style.css">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-    <!--Header section includes nav links-->
     <header>
         <h1>Connor Thompson</h1>
         <nav>
@@ -19,47 +22,48 @@
             <a href="#contact-me">Contact Me</a>
         </nav>
     </header>
-    <!--Main section inclues the about me text with an image-->
+
     <main>
-        <section id="about-me">
-            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
-            <p>Hi! My name is Connor Thompson, I am currently working on html and css.
-                I look foward to working on javascript!
-            </p>
-        </section>
-    </main>
-    <!--This section is my portfolio-->
-    <section id="my-portfolio">
-        <div class="imageontop">
-            <h2>Horiseon | SEO-Refactor</h2>
-            <a href="https://1645558.github.io/seo-refactor/">
-                <img src="./assets/Horiseon-Search-Engine-Optimization.png" alt="SEO-Project Img" height="400">
-            </a>
-
-            <p>
-                Here is my first project! I had to refactor this website's code to be more semantic and
-                up to date on todays standards.
-            </p>
-
-            <div class="imageonbottom">
-                <h3>Placeholder</h3>
-                <a href="https://1645558.github.io/CocktailAPI-group-project/">
-                    <img src="./assets/Cocktail-Recipes.png" alt="Placeholder img" height="150">
+        <div class="row">
+            <div class="card text-center col-sm-4">
+                <a href="https://1645558.github.io/seo-refactor/">
+                    <img src="./public/assets/img/Horiseon-Search-Engine-Optimization.png" class="card-img-top"
+                        alt="Horiseon" height="300" width="240">
                 </a>
+                <div class="card-header">
+                    <h4>Horiseon | SEO-Refactor</h4>
+                    <div class="card-body">
+                        <p>Here is my first project! I had to refactor this website's code to be more semantic and
+                            up to date on todays standards.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-center col-sm-4">
+                <a href="https://1645558.github.io/CocktailAPI-group-project/">
+                    <img src="./public/assets/img/Cocktail-Recipes.png" class="card-img-top" alt="">
+                </a>
+                <div class="card-header">
+                    <h4>Cocktail API</h4>
+                    <div class="card-body">
+                        <p>Checkout out this cocktail website, utilizing an API, it grabs all the cocktail informaiton
+                            you could think of!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-center col-sm-4">
+                <a href="https://pacific-everglades-44013.herokuapp.com/">
+                    <img src="./public/assets/img/Screenshot (18).png" class="card-img-top" alt="">
+                </a>
+                <div class="card-header">
+                    <h4>Food Run</h4>
+                    <div class="card-body">
+                        <p>By far my favorite project yet! Give it a go in Food Run!</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-    </section>
-
-    <!--This is the contact me section with multiple links-->
-    <section id="contact-me">
-        <h4>Contact Me</h4>
-        <a href="mailto:connorwt99@gmail.com">Send an Email</a>
-        <a href="https://www.facebook.com/connor.dredds.5">Facebook</a>
-        <a href="https://www.instagram.com/coner_tomson/?hl=en">Instagram</a>
-    </section>
-    <footer></footer>
+    </main>
 
 </body>
 
