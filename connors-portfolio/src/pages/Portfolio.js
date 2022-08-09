@@ -2,8 +2,8 @@ import React from "react";
 
 const Portfolio = () => {
     return (
-        <div class="row">
-            <div class="card text-center col-sm-4">
+        <div class="d-flex flex-column">
+            <div class="card text-center col-sm-4 align-self-center">
                 <a href="https://1645558.github.io/seo-refactor/">
                     <img src="./public/assets/img/Horiseon-Search-Engine-Optimization.png" class="card-img-top"
                         alt="Horiseon" height="300" width="240" />
@@ -16,7 +16,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div class="card text-center col-sm-4">
+            <div class="card text-center col-sm-4 align-self-center">
                 <a href="https://1645558.github.io/CocktailAPI-group-project/">
                     <img src="./public/assets/img/Cocktail-Recipes.png" class="card-img-top" alt="" />
                 </a>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div class="card text-center col-sm-4">
+            <div class="card text-center col-sm-4 align-self-center">
                 <a href="https://pacific-everglades-44013.herokuapp.com/">
                     <img src="./public/assets/img/Screenshot (18).png" class="card-img-top" alt="" />
                 </a>
