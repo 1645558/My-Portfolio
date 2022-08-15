@@ -10,9 +10,13 @@ code {
     monospace;
 }
 
+#link-style {
+  font-size: 30px;
+}
+
 #link-style:hover {
-  font-size: 125%;
-  transition: all 250ms;
+  font-size: 250%;
+  transition: ease-in 250ms;
 }
 
 #submit-btn:hover {
