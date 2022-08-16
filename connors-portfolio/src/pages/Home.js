@@ -14,13 +14,13 @@ const Home = () => {
 
                     <div style={{ height: '100vh' }}>
                         <h1 className="d-flex justify-content-center pt-4"
-                            style={{ color: 'rgb(200, 200, 200)', fontSize: '100px', marginTop: '10%' }}>Connor Thompson</h1>
+                            style={{ color: 'rgb(200, 200, 200)', marginTop: '10%' }}>Connor Thompson</h1>
                         <h1 className="d-flex justify-content-center pt-4"
-                            style={{ color: 'rgb(200, 200, 200)', fontSize: '70px' }}>
+                            style={{ color: 'rgb(200, 200, 200)' }}>
                             Junior Web Developer
                         </h1>
                         <p className="d-flex justify-content-center pt-4"
-                            style={{ color: 'rgb(200, 200, 200)', fontSize: '30px' }}>
+                            style={{ color: 'rgb(200, 200, 200)' }}>
                             With a passion of bringing ideas to life
                         </p>
                     </div>

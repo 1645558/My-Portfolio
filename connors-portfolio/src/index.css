@@ -10,12 +10,7 @@ code {
     monospace;
 }
 
-#link-style {
-  font-size: 30px;
-}
-
 #link-style:hover {
-  font-size: 250%;
   transition: ease-in 250ms;
 }
 
@@ -24,13 +19,14 @@ code {
   transition: all 250ms;
 }
 
-.container-fluid{
+.container-fluid {
   height: 100vh;
   margin: 0;
   padding: 0;
   width: 100%;
   background: #FFF;
 }
+
 /* ============= Animation background ========= */
 .background {
   background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
@@ -39,9 +35,22 @@ code {
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  padding:0;
-  margin:0px;
+  padding: 0;
+  margin: 0px;
 }
+
+.background-portfolio {
+  background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
 .cube {
   position: absolute;
   top: 80vh;
@@ -53,29 +62,35 @@ code {
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
 }
+
 .cube:nth-child(2n) {
-  border-color: #FFF ;
+  border-color: #FFF;
 }
+
 .cube:nth-child(2) {
   animation-delay: 2s;
   left: 25vw;
   top: 40vh;
 }
+
 .cube:nth-child(3) {
   animation-delay: 4s;
   left: 75vw;
   top: 50vh;
 }
+
 .cube:nth-child(4) {
   animation-delay: 6s;
   left: 90vw;
   top: 10vh;
 }
+
 .cube:nth-child(5) {
   animation-delay: 8s;
   left: 10vw;
   top: 85vh;
 }
+
 .cube:nth-child(6) {
   animation-delay: 10s;
   left: 50vw;
@@ -86,20 +101,96 @@ code {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
 }
+
 @keyframes cube {
   from {
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
     opacity: 1;
   }
+
   to {
     transform: scale(12) rotate(960deg) translate(-40%, -40%);
     opacity: 0;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media screen and (min-width: 1301px) {
+  h1 {
+    font-size: 90px;
+  }
+
+  h4 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  #link-style {
+    font-size: 30px;
+  }
+
+  #link-style:hover {
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  #link-style {
+    font-size: 20px;
+  }
+
+  #link-style:hover {
+    font-size: 150%;
+  }
+
+  .icons {
+    position: absolute;
+    bottom: 10%;
+  }
+
+  .icons-2 {
+    position: absolute;
+    bottom: 1%;
   }
 }
