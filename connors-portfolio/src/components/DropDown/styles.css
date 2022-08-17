@@ -1,0 +1,11 @@
+.drop-items {
+    width: 100vw;
+    height: 100vh;
+    font-size: 50px;
+    background: rgb(20, 20, 20);
+}
+
+#drop-menu {
+    background: rgb(20, 20, 20);
+    border: none;
+}

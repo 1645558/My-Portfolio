@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
     return (
         <div style={{ background: 'rgb(24, 24, 24)', height: '100vh', color: 'rgb(200, 200, 200)', overflowY: 'scroll' }}>
-            <h1 className="d-flex justify-content-center">
+            <h1 className="home d-flex justify-content-center">
                 Connor Thompson
             </h1>
             <h4 className="d-flex justify-content-center">

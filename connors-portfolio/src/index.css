@@ -97,6 +97,10 @@ code {
   top: 10vh;
 }
 
+.drop-btn {
+  display: none;
+}
+
 @keyframes Gradient {
   0% {
     background-position: 0% 50%;
@@ -123,20 +127,6 @@ code {
   }
 }
 
-.hamburger {
-  display: none;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #101010;
-}
-
 @media screen and (min-width: 1301px) {
   h1 {
     font-size: 90px;
@@ -159,7 +149,7 @@ code {
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media (min-width: 601px) and (max-width: 1300px) {
   h1 {
     font-size: 70px;
   }
@@ -193,4 +183,50 @@ code {
     position: absolute;
     bottom: 1%;
   }
+}
+
+@media screen and (max-width: 600px) {
+  h1.home {
+    font-size: 70px;
+    margin-left: 15%;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  #link-style {
+    font-size: 20px;
+  }
+
+  #link-style:hover {
+    font-size: 150%;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .drop-btn {
+    display: flex;
+    position: absolute;
+    padding: 4px;
+  }
+  
 }
