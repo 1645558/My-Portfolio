@@ -12,6 +12,7 @@ const About = () => {
                         My name is Connor Thompson, I'm a junior web developer based in Charlotte NC, USA.
                         I'm passionate about building cutting-edge applications! My journey in coding started
                         a year ago and I've been striving to build bigger and better projects everyday.
+                        Checkout my portfolio section to see my favorite projects!
                     </p>
                 </div>
             </div>

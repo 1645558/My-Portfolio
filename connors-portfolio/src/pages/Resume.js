@@ -7,23 +7,23 @@ const Resume = () => {
                 Connor Thompson
             </h1>
             <h4 className="d-flex justify-content-center">
-                Junior Web Developer
+                Web Developer
             </h4>
             <p className="d-flex justify-content-center">
                 1016 Wesley Downs Rd | 704-219-2058
             </p>
             <hr className="m-auto w-50" />
             <section className="container mb-5">
-                <div style={{ width: '50vw', margin: 'auto'}}>
+                <div style={{ width: '50vw', margin: 'auto' }}>
                     <h4 className="pt-4">
                         Summary
                     </h4>
                     <p className="pt-3">
-                        Efficient Junior Web Developer with Certificate in Full Stack Web Development. Excellent
-                        communication and organizational abilities with resourceful approach to solving diverse problems.
-                        Deadline-driven and knowledgeable professional with strong desire to learn and contribute to team
-                        success. Successful at improving usability, performance and functionality by applying my skills.
-                        Collaborative and hardworking team player with critical thinking skills and systematic approach.
+                        Efficient Web Developer with Certificate in Full Stack Web Development. Excellent communication
+                        and organizational abilities with resourceful approach to solving diverse problems. Deadline-driven
+                        and knowledgeable professional with strong desire to learn and contribute to team success.
+                        Customer oriented and driven to exceed expectations. Natural problem solver with passion for
+                        debugging.
                     </p>
                     <hr className="w-75" />
                     <h4>
@@ -31,7 +31,7 @@ const Resume = () => {
                     </h4>
                     <p className="pt-3">
                         React, JavaScript, CSS, HTML, Node, Express, MySQL, NoSQL, MongoDB, Bootstrap, Client-Side Routing,
-                        Authentication, User Experience Design (UX)
+                        Authentication, User Experience Design (UX), API, Debugging
                     </p>
                     <hr className="w-75" />
                     <h4>
@@ -39,19 +39,19 @@ const Resume = () => {
                     </h4>
                     <ul>
                         <p>
-                            Highschool Diploma
-
-                        </p>
-                        <p>
-                        - Weddington HighSchool
-                        2013-2017
-                        </p>
-                        <p className="pt-4">
                             Certificate: Full Stack Web Development
                         </p>
                         <p>
                             - University of North Carolina at Charlotte
                             05/2022-08/2022
+                        </p>
+                        <p className="pt-4">
+                            Highschool Diploma
+
+                        </p>
+                        <p>
+                            - Weddington HighSchool
+                            2013-2017
                         </p>
                     </ul>
                     <hr className="w-75" />
